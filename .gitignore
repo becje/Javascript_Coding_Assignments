@@ -1,0 +1,6 @@
+# npm install files for mocha and chai tests
+node_modules
+
+# Visual Studio Code
+.vscode/
+.code-workspace
