@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<!-- HTML for Unit Test using Mocha and Chai for a least one function -->
+
+
+<head>
+    <link rel='stylesheet' href='node_modules/mocha/mocha.css'>
+
+    <title>Deck Tests</title>
+</head>
+
+<body>
+    <div id='mocha'>
+        <p>
+            <a href="."></a>
+        </p>
+    </div>
+    <div id='messages'></div>
+    <div id='fixtures'></div>
+    <script src='node_modules/mocha/mocha.js'></script>
+    <script src='node_modules/chai/chai.js'></script>
+    <script src='deckTest.js'></script>
+    <script>
+        mocha.setup('bdd');
+    </script>
+    <script src='deckTest.js'></script>
+    <script>
+        mocha.run();
+    </script>
+</body>
+
+</html>
